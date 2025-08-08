@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function Card() {
   return (
-    <div className="h-[90%] sm:h-[680px] max-w-[400px] w-4/5 bg-greyCard rounded-2xl px-6 sm:py-11 py-9 flex flex-col gap-8 items-center justify-center">
+    <div className="h-[90%] sm:h-[680px] max-w-[400px] w-[90%] bg-greyCard rounded-2xl px-6 sm:py-11 py-9 flex flex-col gap-8 items-center justify-center">
       <div className="flex items-center flex-col gap-6">
         <img src={profilePicture} alt="" className="rounded-full w-25" />
         <div className="text-center flex flex-col gap-1.5">
